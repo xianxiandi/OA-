@@ -34,8 +34,7 @@ public class BaoxiaoBillController {
 	public String main(ModelMap model) {
 		ActiveUser activeUser = (ActiveUser) SecurityUtils.getSubject().getPrincipal();
 		model.addAttribute("activeUser", activeUser);
-		
-		
+			
 		return "index";
 		
 	}
