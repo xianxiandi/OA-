@@ -24,13 +24,12 @@ pageEncoding="UTF-8"%>
 <body>
 
 <ol class="breadcrumb breadcrumb_nav">
-    <li class="active">首页</li>
+    <li class="active">删除</li>
 </ol>
 
 <div class="page-content">
-    <div class="panel-heading" align="center">${globle_user.username}老板,欢迎来到粤嵌沐足洗浴中心.....</div>
-    <div align="center">
-        <li><img alt="美女" src="static/images/01.jpg" align="middle"></li>
+    <div class="panel-heading" >删除成功....... 
+      <a href="myBaoxiaoBill">返回</a>
     </div>
 
 </div>

@@ -57,7 +57,7 @@
 	<classpathentry exported="true" kind="lib" path="WebRoot/WEB-INF/lib/ojdbc6-11.1.0.7.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="WebRoot/WEB-INF/lib/pagehelper-4.2.1.jar"/>
 	<classpathentry exported="true" kind="lib" path="WebRoot/WEB-INF/lib/quartz-1.6.1.jar"/>
-	<classpathentry exported="true" kind="lib" path="WebRoot/WEB-INF/lib/shiro-core-1.2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="WebRoot/WEB-INF/lib/shiro-core-1.2.3.jar" sourcepath="E:/上课资料/OA项目/类库/shiro-web/shiro-core-1.2.3.jar"/>
 	<classpathentry exported="true" kind="lib" path="WebRoot/WEB-INF/lib/shiro-ehcache-1.2.3.jar"/>
 	<classpathentry exported="true" kind="lib" path="WebRoot/WEB-INF/lib/shiro-quartz-1.2.3.jar"/>
 	<classpathentry exported="true" kind="lib" path="WebRoot/WEB-INF/lib/shiro-spring-1.2.3.jar"/>

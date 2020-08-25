@@ -70,4 +70,14 @@ public class BaoxiaoBillController {
 		model.addAttribute("acs", map);
 		return "viewimage";
 	}
+	
+	
+	@RequestMapping("leaveBillAction_delete")
+	public String leaveBillAction_delete(String id) {
+		
+		this.baoxiaoService.deleteBaoxiaoBillById(Long.parseLong(id));
+		return "leaveBillAction_delete";
+		
+		
+	}
 }

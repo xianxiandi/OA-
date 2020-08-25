@@ -12,6 +12,8 @@ import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.util.ByteSource;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.ui.Model;
+import org.springframework.ui.ModelMap;
 
 import com.web.oa.pojo.ActiveUser;
 import com.web.oa.pojo.Employee;
@@ -19,6 +21,7 @@ import com.web.oa.pojo.MenuTree;
 import com.web.oa.pojo.SysPermission;
 import com.web.oa.service.EmployeeService;
 import com.web.oa.service.SysService;
+import com.web.oa.utils.Constants;
 
 public class CustomRealm extends AuthorizingRealm {
 	
